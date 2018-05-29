@@ -1,0 +1,23 @@
+table #id { width: 10% }
+table #title { width: 50% }
+table #writer { width: 20% }
+table #date { width: 20% }
+
+table > tbody td {
+  cursor: pointer;
+}
+
+#write_btn {
+  float: right;
+  margin-right: 20px;
+}
+
+.title {
+  float: center;
+  width: 100px;
+  margin: 0 auto;
+  position: absolute; left: 50%; transform: translateX(-50%)
+}
+body{
+  text-align: center;
+}
